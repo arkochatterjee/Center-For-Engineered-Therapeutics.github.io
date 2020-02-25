@@ -601,27 +601,27 @@ pre code {
 	margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
 	.container {
-		max-width: 540px;
+		max-width: 100%;
 	}
 }
 
 @media (min-width: 768px) {
 	.container {
-		max-width: 720px;
+		max-width: 100%;
 	}
 }
 
 @media (min-width: 992px) {
 	.container {
-		max-width: 960px;
+		max-width: 100%;
 	}
 }
 
 @media (min-width: 1200px) {
 	.container {
-		max-width: 1140px;
+		max-width: 100%;
 	}
 }
 
@@ -4953,6 +4953,7 @@ input[type="button"].btn-block {
 	.navbar-expand-sm > .container-fluid {
 		padding-right: 0;
 		padding-left: 0;
+		width: 100%;
 	}
 }
 
@@ -4965,6 +4966,7 @@ input[type="button"].btn-block {
 		-webkit-box-pack: start;
 		-ms-flex-pack: start;
 		justify-content: flex-start;
+		width: 100%;
 	}
 
 	.navbar-expand-sm .navbar-nav {
@@ -4972,6 +4974,7 @@ input[type="button"].btn-block {
 		-webkit-box-direction: normal;
 		-ms-flex-direction: row;
 		flex-direction: row;
+		width: 100%;
 	}
 
 	.navbar-expand-sm .navbar-nav .dropdown-menu {
@@ -4987,6 +4990,7 @@ input[type="button"].btn-block {
 	.navbar-expand-sm > .container-fluid {
 		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
+		width: 100%;
 	}
 
 	.navbar-expand-sm .navbar-collapse {
@@ -12797,6 +12801,12 @@ h5,
 	box-shadow: -20px 20px 0 0 #c2a7ff;
 }
 
+@media (max-width: 600px)
+{
+	.image {
+		width: 100%;
+	}
+}
 @media (max-width: 767.98px) {
 	.block-3 .image {
 		height: 300px;
@@ -14547,4 +14557,14 @@ textarea.form-control {
 	
 }
 
+.on_the_phone
+{
+	width: fit-content;
+}
 
+
+@media screen and (max-width: 300px) {
+		.on_the_phone{
+			width: 100%;
+		}
+	}

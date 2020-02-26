@@ -111,8 +111,15 @@ p {
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 1rem;
+	
 }
 
+.p_about
+{
+	text-align: justify ;
+	font-size: large;
+	
+}
 abbr[title],
 abbr[data-original-title] {
 	text-decoration: underline;
@@ -601,16 +608,20 @@ pre code {
 	margin-left: auto;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 600px) {
 	.container {
-		max-width: *0%;
-		text-align: left;
+		max-width: 100%;
+		text-align: left; !important
+		
 	}
 
-	p 
+	.p_about
 	{
-		text-align: left;
-		margin:0%;
+		
+		text-align: justify;
+		font-size: smaller; 
+		margin:2%;
+		padding: 0; !important
 	}
 }
 

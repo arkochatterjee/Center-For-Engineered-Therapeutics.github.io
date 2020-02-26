@@ -114,6 +114,14 @@ p {
 	
 }
 
+.p_pub {
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 1rem;
+	
+}
+
 .p_about
 {
 	text-align: justify ;
@@ -608,18 +616,43 @@ pre code {
 	margin-left: auto;
 }
 
+.pnew 
+{
+	color: black; margin: 0%; padding-top: 0%; text-align: justify;
+}
+
 @media (max-width: 600px) {
 	.container {
 		max-width: 100%;
 		text-align: left; !important
 		
 	}
-
+	.pnew 
+	{
+		
+		text-align: justify;
+		font-size: smaller; 
+		margin-left:2%;
+		margin-right:2%;
+		margin-bottom: 2%;
+		padding: 1%; !important
+	}
 	.p_about
 	{
 		
 		text-align: justify;
 		font-size: smaller; 
+		margin-left:2%;
+		margin-right:2%;
+		margin-bottom: 5%;
+		padding: 0; !important
+	}
+
+	.p_pub
+	{
+		
+		text-align: justify;
+		font-size: small; 
 		margin-left:2%;
 		margin-right:2%;
 		margin-bottom: 5%;
@@ -2305,6 +2338,13 @@ pre code {
 
 	.table-responsive-xl > .table-bordered {
 		border: 0;
+	}
+
+	.table-icon 
+	{
+		margin: 0%;
+		padding: 0%;
+		font-size: small;
 	}
 }
 

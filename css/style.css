@@ -14608,7 +14608,7 @@ textarea.form-control {
 @media screen and (max-width: 1400px){ 
 	div.r_col>p , div.l_col>p
 	{
-		font-size: x-small;
+		font-size: small;
 	}
 	div.r_col>h2, div.l_col>h2{
 		font-size: medium;
